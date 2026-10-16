@@ -1,0 +1,287 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Page-1" id="YcjVbEdyBDmQMntHtD-q">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QWI0mMd-C7TkEWKy0JOr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fontSize=21;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="SAIL - Sailwind API and Integration Mod" vertex="1">
+          <mxGeometry height="360" width="800" x="30" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QWI0mMd-C7TkEWKy0JOr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="Item Registry&lt;br&gt;Mod GUID + Item ID → prefabIndex" vertex="1">
+          <mxGeometry height="130" width="290" x="520" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="QWI0mMd-C7TkEWKy0JOr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="Index Service&lt;br&gt;(objects and items)" vertex="1">
+          <mxGeometry height="130" width="410" x="80" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="QWI0mMd-C7TkEWKy0JOr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Sailwind Game" vertex="1">
+          <mxGeometry height="150" width="800" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QWI0mMd-C7TkEWKy0JOr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="Current Objects Array - Expanded to N slots by SAIL" vertex="1">
+          <mxGeometry height="75" width="330" x="240" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="iArmJqF-qAPZqbtgHIcT-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(192, 202, 245), rgb(52, 61, 98)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#1A1A1A, #d7d7d7); --diffs-token-dark: light-dark(#C0CAF5, #343d62);&quot;&gt;currentObjects&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#1A1A1A, #d7d7d7); --diffs-token-dark: light-dark(#A9B1D6, #4c5373);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(137, 221, 255), rgb(1, 73, 102)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#737373, #8a8a8a); --diffs-token-dark: light-dark(#89DDFF, #014966);&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#1A1A1A, #d7d7d7); --diffs-token-dark: light-dark(#A9B1D6, #4c5373);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(137, 221, 255), rgb(1, 73, 102)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#C5621B, #d37e41); --diffs-token-dark: light-dark(#89DDFF, #014966);&quot;&gt;new&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(169, 177, 214), rgb(76, 83, 115)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#1A1A1A, #d7d7d7); --diffs-token-dark: light-dark(#A9B1D6, #4c5373);&quot;&gt; &lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(192, 202, 245), rgb(52, 61, 98)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#8E6BD9, #9577d5); --diffs-token-dark: light-dark(#C0CAF5, #343d62);&quot;&gt;SaveableObject&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(137, 221, 255), rgb(1, 73, 102)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#737373, #8a8a8a); --diffs-token-dark: light-dark(#89DDFF, #014966);&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(255, 158, 100), rgb(156, 73, 23)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#CD2054, #ff8cb9); --diffs-token-dark: light-dark(#FF9E64, #9c4917);&quot;&gt;N&lt;/span&gt;&lt;span style=&quot;forced-color-adjust: none; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-sizing: border-box; color: light-dark(rgb(137, 221, 255), rgb(1, 73, 102)); background-color: light-dark(rgb(26, 27, 38), rgb(212, 213, 223)); font-family: anthropic-mono, ui-monospace, monospace, &amp;quot;SF Mono&amp;quot;, ui-monospace, Menlo, Consolas, monospace; letter-spacing: 0.00312519px; text-align: start; --diffs-token-light: light-dark(#737373, #8a8a8a); --diffs-token-dark: light-dark(#89DDFF, #014966);&quot;&gt;];&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="290" x="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p1-dir" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="PrefabsDirectory.directory[] - item prefabs, appended to by SAIL" vertex="1">
+          <mxGeometry height="75" width="230" x="590" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p1-objreg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="Object Registry&lt;br&gt;Mod GUID + Object ID → sceneIndex&lt;br&gt;(boats, ropes, anchors, houses)" vertex="1">
+          <mxGeometry height="130" width="290" x="520" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p1-note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Two index spaces&lt;/b&gt;&lt;br&gt;Objects (boats, ropes, anchors, houses): sceneIndex in currentObjects[]&lt;br&gt;Items (fish, crates, tools): prefabIndex in PrefabsDirectory.directory[], which already has 20,518 slots in a modded pack, so SAIL appends past the end" vertex="1">
+          <mxGeometry height="130" width="410" x="80" y="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="i-8swThZpnzDcE0WVNQo" name="Loading Process">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p2-container" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fontSize=30;" value="SAIL API Item Index Registry" vertex="1">
+          <mxGeometry height="870" width="790" x="30" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-gamestore" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Game IDs&lt;div&gt;PrefabsDirectory.directory[]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="260" x="60" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-gamedict" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Game Dict" vertex="1">
+          <mxGeometry height="120" width="200" x="80" y="385" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-gd-0" parent="p2-gamedict" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20518 - dizzy.fish - fish1" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-gd-1" parent="p2-gamedict" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20519 - dizzy.fish - fish2" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-gd-2" parent="p2-gamedict" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20520 - dizzy.dog - dog1" vertex="1">
+          <mxGeometry height="30" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-savestore" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="&lt;div&gt;SaveItemDictionary&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="210" x="590" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-savelist" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="List" vertex="1">
+          <mxGeometry height="120" width="200" x="595" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-sl-0" parent="p2-savelist" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20301 - dizzy.fish - fish1" vertex="1">
+          <mxGeometry height="30" width="200" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-sl-1" parent="p2-savelist" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20302 - dizzy.fish - fish2" vertex="1">
+          <mxGeometry height="30" width="200" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-sl-2" parent="p2-savelist" style="text;strokeColor=#9673a6;fillColor=#e1d5e7;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=11;" value="Item 20303 - dizzy.dog - dog1" vertex="1">
+          <mxGeometry height="30" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-modsload" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Mods Load" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-loadgame" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Load Game" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-pre" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="Pre-check&lt;br&gt;StartMenu.LoadGame prefix:&lt;br&gt;read file, compare dictionaries" vertex="1">
+          <mxGeometry height="80" width="200" x="355" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-dec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Items missing?" vertex="1">
+          <mxGeometry height="80" width="120" x="395" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-loadneeds" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" value="SAIL Overrides&lt;br&gt;LoadNeeds()" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-change" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Change saved item IDs 20301 to 20518, etc..." vertex="1">
+          <mxGeometry height="80" width="120" x="395" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-open" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Open Load" vertex="1">
+          <mxGeometry height="80" width="225" x="342.5" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-notfound" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;verticalAlign=bottom;strokeColor=#d6b656;fillColor=#fff2cc;" value="Items Not Found!!!" vertex="1">
+          <mxGeometry height="80" width="80" x="182.5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-prompt" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;" value="You are missing the Dizzy Pets mod!&lt;br&gt;(lists the missing mod GUIDs)" vertex="1">
+          <mxGeometry height="90" width="225" x="110" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-exit" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Exit Without Loading" vertex="1">
+          <mxGeometry height="70" width="120" x="60" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-clean" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Clean Save&lt;br&gt;A la NAND Save Cleaner&lt;br&gt;(drops missing entries)" vertex="1">
+          <mxGeometry height="70" width="120" x="215" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-coop" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=19;" value="!!!!!!!!&lt;div&gt;COOP Players Will Have Different IDs&lt;/div&gt;&lt;div&gt;NEED SYNC!&lt;/div&gt;&lt;div&gt;NEED TO UPDATE CO-OP TO WORK!&lt;/div&gt;&lt;div&gt;!!!!!&lt;/div&gt;" vertex="1">
+          <mxGeometry height="240" width="150" x="650" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e1" edge="1" parent="1" source="p2-modsload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-loadgame" value="After Startup">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e2" edge="1" parent="1" source="p2-modsload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;entryX=0.385;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="p2-gamestore" value="Items registered by mods at startup (appended past the directory end)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e3" edge="1" parent="1" source="p2-loadgame" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-pre" value="Continue clicked">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e4" edge="1" parent="1" source="p2-pre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p2-gamestore" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e5" edge="1" parent="1" source="p2-pre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p2-savestore" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e6" edge="1" parent="1" source="p2-pre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-dec" value="compare">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e7" edge="1" parent="1" source="p2-dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-loadneeds" value="no, all found">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e8" edge="1" parent="1" source="p2-loadneeds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-change" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e9" edge="1" parent="1" source="p2-change" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-open" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e10" edge="1" parent="1" source="p2-dec" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p2-notfound" value="yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e11" edge="1" parent="1" source="p2-notfound" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-prompt" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e12" edge="1" parent="1" source="p2-prompt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-exit" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e13" edge="1" parent="1" source="p2-prompt" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p2-clean" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2-e14" edge="1" parent="1" source="p2-clean" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p2-loadneeds" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="855" />
+              <mxPoint x="365" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X1NVVnsV5VPxgWqEq7qx" name="ItemIDGenerator">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1" value="Request Saved Index" vertex="1">
+          <mxGeometry height="510" width="750" x="50" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-3" edge="1" parent="1" source="EQm0J-HjGQ9oQxKHCVTg-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EQm0J-HjGQ9oQxKHCVTg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Dizzy Pets Mod" vertex="1">
+          <mxGeometry height="60" width="170" x="250" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="RequestSavedObjectIndexID" vertex="1">
+          <mxGeometry height="80" width="450" x="110" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mod GUID" vertex="1">
+          <mxGeometry height="30" width="120" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ItemID" vertex="1">
+          <mxGeometry height="30" width="120" x="260" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LegacyNumber (Optional)" vertex="1">
+          <mxGeometry height="30" width="140" x="395" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" value="Item Registry" vertex="1">
+          <mxGeometry height="280" width="450" x="110" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-13" edge="1" parent="1" source="EQm0J-HjGQ9oQxKHCVTg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EQm0J-HjGQ9oQxKHCVTg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ModGUID+ItemID" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Index&lt;div&gt;[20518]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="395" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="&lt;code dir=&quot;ltr&quot;&gt;currentObjects&lt;/code&gt;[] (objects)" vertex="1">
+          <mxGeometry height="215" width="200" x="590" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Legacy Space&lt;div&gt;[0-&amp;gt;254]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="600" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;SAIL Space&lt;/b&gt;&lt;div&gt;[255-&amp;gt;10000]&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="600" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="20518 -&amp;gt; fish1" vertex="1">
+          <mxGeometry height="40" width="160" x="610" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="EQm0J-HjGQ9oQxKHCVTg-18" edge="1" parent="1" source="EQm0J-HjGQ9oQxKHCVTg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="EQm0J-HjGQ9oQxKHCVTg-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="555" />
+              <mxPoint x="580" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sail-p3-dir" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="&lt;code dir=&quot;ltr&quot;&gt;PrefabsDirectory.directory&lt;/code&gt;[] (items)" vertex="1">
+          <mxGeometry height="245" width="200" x="590" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p3-dirold" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Vanilla + other mods&lt;div&gt;(existing slots)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="600" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p3-dirsail" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;b&gt;SAIL Space&lt;/b&gt;&lt;div&gt;(appended after the last slot)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="180" x="600" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="sail-p3-note" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;b&gt;Two index spaces&lt;/b&gt;&lt;br&gt;Objects: sceneIndex in currentObjects[]&lt;br&gt;Items: prefabIndex in PrefabsDirectory.directory[], which has 20,518 slots in a modded pack, so SAIL appends past the end" vertex="1">
+          <mxGeometry height="130" width="410" x="130" y="610" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="hBQ8z4gRqyx39oTWQ47W" name="Save Process">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p4-s1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;Game Save&lt;/b&gt;&lt;br&gt;Autosave, sleep or quit calls SaveGame; DoSaveGame builds the SaveContainer" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-s2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;Vanilla save loops&lt;/b&gt;&lt;br&gt;savedObjects from currentObjects[], savedPrefabs from the prefab list (one frame)" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-s1-s2" edge="1" parent="1" source="p4-s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p4-s2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-s3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;SaveModData() hook&lt;/b&gt;&lt;br&gt;SAIL runs here, on the same snapshot the loops just used" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-s2-s3" edge="1" parent="1" source="p4-s2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p4-s3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-s4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;Generate Item Index&lt;/b&gt;&lt;br&gt;One record per saved object and per item prefab in use: index, mod GUID, item ID" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-s3-s4" edge="1" parent="1" source="p4-s3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p4-s4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-s5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;Save to ModData&lt;/b&gt;&lt;br&gt;One versioned JSON string under a SAIL key in GameState.modData" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-s4-s5" edge="1" parent="1" source="p4-s4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p4-s5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-s6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;Vanilla writes the file&lt;/b&gt;&lt;br&gt;modData is copied into the container, PushBackups runs, BinaryFormatter writes slotN.save" vertex="1">
+          <mxGeometry height="80" width="330" x="110" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-s5-s6" edge="1" parent="1" source="p4-s5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;" target="p4-s6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-note1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;spacingLeft=6;" value="&lt;b&gt;First SAIL save only&lt;/b&gt;&lt;br&gt;Copy the old slotN.save once (slotN.pre-sail.save) before PushBackups, because the game keeps only five backups" vertex="1">
+          <mxGeometry height="100" width="280" x="500" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-note" edge="1" parent="1" source="p4-note1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p4-s6" value="before the write">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-note2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;spacingLeft=6;" value="&lt;b&gt;Pinned objects&lt;/b&gt;&lt;br&gt;Vanilla and grandfathered mods have no SAIL identity; their record is the index itself" vertex="1">
+          <mxGeometry height="90" width="280" x="500" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4-e-note2" edge="1" parent="1" source="p4-note2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;dashed=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p4-s4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
